@@ -61,7 +61,7 @@ func findProduct(id int) (int, error) {
 			return i, nil
 		}
 	}
-	return -1, errors.New("Proodct not found")
+	return -1, errors.New("Product not found")
 }
 
 func getNextId() int {
